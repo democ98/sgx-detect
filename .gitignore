@@ -1,0 +1,55 @@
+**/target/
+**/*.rs.bk
+*.swp
+**/._*
+**/.criterion/
+.vscode
+polkadot.*
+.DS_Store
+nohup.out
+rls*.log
+*.orig
+*.rej
+**/wip/*.stderr
+*.pyc
+*.swo
+*.bk
+*~
+
+# Keep
+!.keep
+
+# Visual Studio
+.vs/*
+
+# JetBrains
+.idea
+*.iml
+CMakeLists.txt
+
+# Object files
+*.o
+
+# Libraries
+*.a
+
+# Shared objects
+*.so
+*.so.*
+
+# Executables
+bin/**
+!bin/.keep
+
+# SGX EDL generated stubs
+Enclave_u.c
+Enclave_u.h
+Enclave_t.c
+Enclave_t.h
+
+# Generated and temp files
+app/src/protos/*.rs
+enclave/src/protos/*.rs
+protos/tmp
+tmp
+.cargo/config
